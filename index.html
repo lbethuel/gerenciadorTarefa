@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./reset.css" />
+    <script defer type="module" src="add.js"></script>
+    <title>GTLU</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <h1 class="title">AGENDA DE TAREFAS DO LULU</h1>
+        </header>
+
+        <form class="form">
+            <input type="text" class="tarefa" placeholder="Digite sua tarefa aqui" id="tarefa" />
+            <button type="button" id="salvar" class="tarefaButton">Submit</button>
+        </form>
+
+        <section class="cards">
+            <div id="card">
+                <!-- aqui esta sendo inserido todas as tarefas -->
+                <section >
+                    <div class=tarefas>
+                        <p id="textTarefa_1">Passar no mercado (Pão e Leite)</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" id="feito_1">Feito</button>
+                        <button type="button" id="delete_1">Excluir</button>
+                        <button type="button" id="editar_1">Editar</button>
+                    </div>
+                </section>
+
+                <section >
+                    <div class=tarefas>
+                        <p id="textTarefa_2">Arrumar porta</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" id="feito_2">Feito</button>
+                        <button type="button" id="delete_2">Excluir</button>
+                        <button type="button" id="editar_2">Editar</button>
+                    </div>
+                </section>
+
+                <section >
+                    <div class=tarefas>
+                        <p id="textTarefa_3">Pegar resultado do exame</p>
+                    </div>
+                    <div class="button">
+                        <button type="button" id="feito_3">Feito</button>
+                        <button type="button" id="delete_3">Excluir</button>
+                        <button type="button" id="editar_3">Editar</button>
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <div id="clear">
+            <button>Clear</button>
+        </div>
+    </div>
+</body>
+
+</html>

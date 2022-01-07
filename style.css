@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(253, 242, 229);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  margin: 50px;
+  height: 450px;
+  width: 60%;
+  box-shadow: 0 0 1em gray;
+  border-radius: 25px;
+  background-color: white;
+  padding: 20px;
+}
+
+.header {
+  flex-grow: 1;
+  text-align: center;
+  padding-top: 20px;
+  /* border: 2px solid rgb(0, 117, 68); */
+  width: 100%;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.form {
+  flex-grow: 1;
+  /* border: 2px solid rgb(117, 66, 0); */
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.tarefa {
+  width: 70%;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.tarefaButton {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  height: 35px;
+}
+
+.cards {
+  flex-grow: 3;
+  width: 90%;
+  height: 90px;
+  overflow-y: auto;
+  padding: 10px;
+  background-color:rgb(250, 250, 250);
+  border-radius: 25px
+}
+
+#card section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  width: 100%;
+}
+
+#clear {
+    flex-grow: 1;
+    display: flex;
+    margin-top:10px;
+}
